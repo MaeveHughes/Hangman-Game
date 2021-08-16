@@ -27,3 +27,39 @@ body {
     display: inline-block;
     margin-left: 36.5%;
 }
+/* Styling for the Footer*/
+
+#footer {
+    position: fixed;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+#social-networks a{
+    float: right;
+    color: white;
+    margin-right: 40px;
+}
+
+#social-networks {
+    text-align: center;
+}
+
+#social-networks > li {
+    display: inline;
+}
+
+#social-networks li {
+    font-size: 160%;
+}
+
+#copyright {
+    float: left;
+    margin-left: 40px;
+    font-size: 160%;
+}
